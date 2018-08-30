@@ -9,7 +9,7 @@ export default class Routes extends React.Component {
       <Router>
         <Scene key="root">
           <Scene  component={Login}  initial={true} title="Login"/>
-          <Scene key="sd" component={Sd} title="Sd"/>
+          <Scene key="sd" component={Sd} title="Home"/>
         </Scene>
       </Router>
     );
